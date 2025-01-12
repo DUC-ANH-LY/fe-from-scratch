@@ -1,9 +1,12 @@
 import { init } from "./framework";
-import { div } from "./framework/element";
+import { test, User } from "./src/user";
 
-const firstName = "Marvin";
-const lastName = "Frachet";
+let firstName = "Marvin";
+let lastName = "Frachet";
 
-init("#app", div`Hello ${firstName} ${lastName}`);
-init("#test", div`Hello test ${firstName} ${lastName}`);
-// init("#app", p`Hello ${firstName} ${lastName}`); works as simply as moving div to p
+console.log(test);
+
+init("#app", User({ firstName, lastName }));
+firstName = "duc";
+lastName = "anh";
+init("#test", User({ firstName, lastName }));
