@@ -5,3 +5,5 @@ _This project aims to provide a step by step implementation of a "frontend frame
 [NEW: here's another way to implement it using React API and JSX](https://github.com/mfrachet/create-frontend-framework/tree/jsx)
 
 **NEW: the project is now available on github pages! https://mfrachet.github.io/create-frontend-framework/**
+
+- commit rule (https://www.conventionalcommits.org/en/v1.0.0/)
