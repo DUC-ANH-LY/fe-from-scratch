@@ -12,7 +12,7 @@
     "build:docs": "vuepress build book && rm -rf ./docs && mv ./book/.vuepress/dist ./docs"
   },
   "dependencies": {
-    "snabbdom": "^0.7.1"
+    "snabbdom": "^0.7.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
